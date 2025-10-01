@@ -1,0 +1,21 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+float sayi = 0;
+int main()
+{
+    printf("Sayinin isaretini sorgulamak icin sayiyi giriniz: ");
+    scanf("%f", &sayi);
+
+    if (sayi > 0) {
+        printf("Sayiniz pozitif degerlidir");
+    }
+    else if (sayi < 0) {
+        printf("Sayiniz negatif degerlidir");
+    }
+    else {
+        printf("Sayiniz sifirdir");
+    }
+
+    return 0;
+}
