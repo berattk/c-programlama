@@ -1,0 +1,17 @@
+#include <stdio.h>
+#include <stdlib.h>
+int main(){
+    int i,j,not,toplam;
+    for(i=1;i<=5;i++){
+        toplam=0;
+        printf("%d. ogrenci notlari: ",i);
+        for(j=0;j<4;j++){
+            scanf("%d",¬);
+            toplam+=not;
+        }
+        printf("Ortalama: %d ",toplam/4);
+        if(toplam/4>=50)printf("Gecti\n");
+        else printf("Kaldi\n");
+    }
+    return 0;
+}
