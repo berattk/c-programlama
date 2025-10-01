@@ -1,0 +1,18 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main() {
+    char h;
+    printf("Harf gir: ");
+    scanf(" %c", &h);
+
+    if(h=='a'||h=='e'||h=='u'||h=='o'||h=='i'||
+       h=='A'||h=='E'||h=='U'||h=='O'||h=='I') {
+        printf("Sesli harf");
+    }
+    else {
+        printf("Sessiz harf");
+    }
+
+    return 0;
+}
